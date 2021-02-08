@@ -319,15 +319,18 @@ body {
     line-height: 29px;
     margin-bottom: 70px;
 }
+.slick-initialized .slick-slide{
+    display: flex;
+}
 .reviews__item{
     border: 1px solid #C5AC2D;
     padding: 45px 30px;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 270px;
     min-height: 300px;
     text-align: center;
+    margin-right: 30px;
 }
 .reviews__item-name{
     font-family: 'Fira Sans', sans-serif;
@@ -335,7 +338,6 @@ body {
     font-size: 24px;
     line-height: 29px;
 }
-
 .reviews__slider .slick-dots button{
     background-color: #C5AC2D;
 }
@@ -349,9 +351,5 @@ body {
     margin: 0 5px;
     line-height: 12px;
 }
-
-
-
-
 /**********************     reviews  end    *********************/
 
