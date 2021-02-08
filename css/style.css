@@ -17,7 +17,6 @@ a {
 }
 
 body {
-
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
     color: #1B1818;
@@ -90,6 +89,7 @@ body {
     padding: 16px 19px 15px;
     transition: all .5s;
     border: 1px solid transparent;
+    display: inline-block;
 }
 .application-btn:hover{
     color: #C5AC2D;
@@ -352,4 +352,98 @@ body {
     line-height: 12px;
 }
 /**********************     reviews  end    *********************/
+
+
+/**********************     feedback  start    *********************/
+
+.feedback{
+    padding: 100px 0;
+}
+.feedback__inner{
+    display: flex;
+    align-items: center;
+}
+
+.feedback__images{
+    width: 50%;
+}
+
+.feedback__form{
+    width: 415px;
+    margin: 0 auto;
+}
+.feedback__title{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 5px;
+}
+.feedback__text{
+    margin-bottom: 30px;
+}
+
+.feedback__input{
+    display: block;
+    padding: 20px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.feedback__input::placeholder{
+    line-height: 19px;
+    font-size: 16px;
+    color: #1B1818;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+.feedback__btn{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fefefe;
+    border: none;
+    display: inline-block;
+    padding: 16px 36px 15px;
+    background-color: #C5AC2D;
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/***************     footer start      **************/
+.footer{
+    padding: 100px 0 24px;
+    background: #332208;
+}
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+
+
+
+
+
+/***************     footer end     **************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************     feedback  end    *********************/
+
+
+
 
