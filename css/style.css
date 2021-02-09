@@ -318,13 +318,15 @@ body {
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 70px;
+
 }
 .slick-initialized .slick-slide{
-    display: block;
+    display: flex;
 }
 .reviews__item{
     border: 1px solid #C5AC2D;
     padding: 45px 30px;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 270px;
@@ -494,10 +496,13 @@ body {
     .benefits__text + .benefits__text{
         width: 100%;
     }
-
+    .footer .menu{
+        display: none;
+    }
 }
 
 @media (max-width: 860px) {
+
     .menu{
         order: 1;
     }
@@ -543,6 +548,16 @@ body {
     .rent__item{
         margin: 30px;
     }
+    .feedback__images{
+        display: none;
+    }
+    .footer,
+    .feedback,
+    .reviews,
+    .benefits,
+    .rent{
+        padding: 50px 0;
+    }
 }
 @media (max-width: 650px) {
    .rent__item{
@@ -584,6 +599,16 @@ body {
     }
     .benefits__list-item:nth-child(4){
         margin-right: 0;
+    }
+}
+@media (max-width: 450px) {
+    .footer__top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .phone{
+        margin-top: 30px;
+        display: inline-block;
     }
 }
 @media (max-width: 410px) {
